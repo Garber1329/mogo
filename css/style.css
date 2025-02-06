@@ -125,3 +125,36 @@ ul{
     border: none;
     padding: 12px 38px;
 }
+.header{
+    padding: 17px 0;
+}
+
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link:not(:last-child){
+    margin-right: 55px;
+}
+
+.services-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    outline: 2px dashed green;
+}
+.services-item{
+    width: 366px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: flex-start;
+}
+.services-item-title{
+    margin-top: 0;
+}
+.services-item-img{
+    margin-right: 18px;
+}
