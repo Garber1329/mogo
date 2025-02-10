@@ -22,8 +22,6 @@ ul{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-
-    outline: 2px dashed red;
 }
 
 .nav-link {
@@ -143,8 +141,6 @@ ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-    outline: 2px dashed green;
 }
 .services-item{
     width: 366px;
@@ -157,4 +153,37 @@ ul{
 }
 .services-item-img{
     margin-right: 18px;
+}
+.services-line,
+.team-line{
+    background-color: var(--red-color);
+    height: 4px;
+    width: 60px;
+    margin: 40px auto 65px auto;
+}
+
+.team-line{
+    margin-bottom: 40px;
+}
+.team-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+figure{
+    margin: 0;
+}
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 80px ;
+
+    border-top: 1px solid var(--light-wight-color);
+}
+
+.services{
+    margin-top: 70px;
 }
